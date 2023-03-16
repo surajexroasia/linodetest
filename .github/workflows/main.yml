@@ -60,4 +60,4 @@ jobs:
         username: ${{ secrets.SSH_USER }}
         key: ${{ secrets.SSH_KEY }}
         port: ${{ secrets.PORT }}
-        script: bash /scripts/update.sh
+        script: bash ./update.sh
